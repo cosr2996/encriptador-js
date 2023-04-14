@@ -6,6 +6,7 @@
 }
 
 .btn {
+    cursor: pointer;
     display: block;
     background-color: #FF6000;
     color: #FFE6C7;
