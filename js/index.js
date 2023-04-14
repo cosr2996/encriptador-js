@@ -1,5 +1,6 @@
 'use strict'
-//boton de encriptar
+window.addEventListener('load', function() {
+       //boton de encriptar
 var encriptar = document.getElementById('btn-en');
 encriptar.addEventListener("click", encriptarTexto);
 //boton de desencriptar
@@ -73,3 +74,5 @@ async function copyText() {
               console.log(err)
        }
 }
+   });
+
