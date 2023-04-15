@@ -330,4 +330,7 @@ textarea:focus {
         flex-direction: column;
 
     }
+    #result{
+        margin-bottom: 10px;
+    }
 }
