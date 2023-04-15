@@ -264,7 +264,7 @@ textarea:focus {
 
 @media (max-width:679px) {
     #content {
-        height: auto;
+        height: 100vh;
     }
     #buttons {
         display: flex;
