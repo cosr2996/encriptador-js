@@ -264,7 +264,7 @@ textarea:focus {
 
 @media (max-width:679px) {
     #content {
-        height: 100vh;
+        height: auto;
     }
     #buttons {
         display: flex;
@@ -318,8 +318,16 @@ textarea:focus {
     }
 
     #pie {
+        margin-top: auto;
         height: 20px;
         line-height: 20px;
         font-size: 15px;
+    }
+
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
     }
 }
