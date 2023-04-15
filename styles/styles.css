@@ -6,7 +6,7 @@
 
 }
 
-body {}
+
 
 .btn {
     cursor: pointer;
@@ -61,7 +61,7 @@ textarea:focus {
 }
 
 #content {
-    height: 720px;
+    min-height: 100vh;
 }
 
 
